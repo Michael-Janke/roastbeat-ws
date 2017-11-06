@@ -1,0 +1,14 @@
+{
+  "name": "roastbeat-ws",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "babel-cli": "^6.26.0",
+    "ws": "^3.3.0"
+  },
+  "scripts": {
+    "start": "node build/server.js",
+    "build": "babel src --out-dir build --presets=es2015"
+  }
+}
